@@ -1,0 +1,81 @@
+.main {
+    height: 100vh;
+    width: 82vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+    overflow-y:scroll;
+}
+
+.header {
+    font-size: 40px;
+    font-weight:400;
+    color: #555;
+    margin: 16px;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex: row;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
+
+.sidebarItemContainer {
+    height: 40px;
+    width: 15vw;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color:#777;
+    font-weight: 100;
+    margin: 4px 0;
+}
+
+.Tabs{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 60vh;
+}
+
+.titleAndFilter {
+    height: 20px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:16px;
+    margin-bottom:4px;
+}
+
+.title {
+    font-size: 24px;
+    color:#555;
+}
+
+.filterField {
+    height: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.filterIcon {
+    height: 20px;
+    margin: 0 8px;
+}

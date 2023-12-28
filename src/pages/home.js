@@ -3,7 +3,8 @@ import '../style.css';
 import SidebarItem from '../components/sidebarItem';
 import ExpandSidebarItem from '../components/expandSidebarItem';
 import FilterTag from '../components/filterTag';
-import Logo from '../logo.svg';
+import AddTask from '../components/addTask';
+import Logo from '../assets/images/logo.png';
 import TaskFill from '../assets/images/taskFill.png';
 import Settings from '../assets/images/settings.png';
 import Folder from '../assets/images/folder.png';
@@ -35,7 +36,7 @@ export function Home() {
     <>
         <div className="page"> 
             <div className="sidebar">
-                <img src={Logo} alt="logo" style={{ width: '50px', margin: '32px' }} />
+                <img src={Logo} alt="logo" style={{ width: '170px', margin: '32px' }} />
                 <div className="tabs">
                     <SidebarItem icon={TaskFill} name="Tasks" isActive={true} ></SidebarItem>
                     <ExpandSidebarItem icon={Folder} name="Categories" ></ExpandSidebarItem>
@@ -53,6 +54,7 @@ export function Home() {
                         <img src={Filter} alt="icon" style={{height: '20px', margin: '4px 8px'}} />
                     </div>
                 </div>
+                <AddTask></AddTask>
             </div>
             
         </div> 
